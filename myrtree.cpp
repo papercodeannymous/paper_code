@@ -14,7 +14,7 @@
 //     int state_num = num_features;
 //     int dimension = cb * state_num;
 //     for (int i = 0; i < dimension; i++) {
-//         states[i] = 0;
+//         states[i] = 0;  
 //     }
 //     double max_state1 = -std::numeric_limits<double>::infinity();
 //     double max_state2 = -std::numeric_limits<double>::infinity();
