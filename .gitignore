@@ -1,3 +1,75 @@
-RLProcess/__pycache__
-.vscode/
+# GSAR-Tree .gitignore
 
+# 数据目录（生成的训练和测试数据）
+generated_data/
+data/
+datasets/
+
+# 模型文件（训练保存的检查点）
+
+checkpoints/
+# *.pth
+*.pt
+*.ckpt
+model/
+# 日志文件
+logs/
+*.log
+
+# 可视化输出
+images/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# 评估结果
+evaluation_results.json
+performance.json
+*.json
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+*.egg-info/
+dist/
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# 临时文件
+tmp/
+temp/
+*.tmp
